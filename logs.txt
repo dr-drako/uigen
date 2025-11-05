@@ -1,0 +1,21 @@
+   ▲ Next.js 15.3.3 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.4.106:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 78ms
+ ✓ Ready in 726ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3s
+ GET / 200 in 3395ms
+ ✓ Compiled /favicon.ico in 167ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 401ms
+ GET / 200 in 41ms
+ ✓ Compiled /api/chat in 262ms
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 12686ms
+ ✓ Compiled in 48ms
+ GET / 200 in 42ms
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 12448ms

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "dev:daemon": "next dev --turbopack > logs.txt 2>&1 & echo 'Server started, writing logs to logs.txt'",
+    "dev": "NODE_OPTIONS='--no-experimental-webstorage' next dev --turbopack",
+    "dev:daemon": "NODE_OPTIONS='--no-experimental-webstorage' next dev --turbopack > logs.txt 2>&1 & echo 'Server started, writing logs to logs.txt'",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
